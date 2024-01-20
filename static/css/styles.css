@@ -1,0 +1,312 @@
+@font-face {
+    font-family: 'PlayfairDisplay';
+    src: local('PlayfairDisplay'), url(../fonts/PlayfairDisplay.ttf);
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    background: #EBEBEB;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    z-index: 2;
+    background: #b6b891;
+    box-shadow: 0px 10px 20px 5px rgba(55, 58, 54, 0.25);
+}
+
+footer {
+    left: 18%;
+    position: fixed;
+    width: 80%;
+    height: 60px;
+    bottom: 10px;
+    border-radius: 25px;
+    background: rgba(255, 0, 40, 0.75);
+    display: flex;
+    align-items: center;
+}
+
+footer p {
+    color: #1400C6;
+    font-family: "PlayfairDisplay";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    margin: 0 auto;
+}
+
+
+a {
+    color: #F64C72 !important;
+    text-decoration: none
+}
+
+
+.logo {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    left: 90px;
+    top: 10px
+}
+
+.name {
+    align-self: center;
+    width: 100%;
+    height: 60px;
+    left: 550px;
+    top: 35px;
+
+    font-family: 'PlayfairDisplay';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 51px;
+    text-align: center;
+    justify-content: center;
+
+    color: #1400C6;
+
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navigation {
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 325px;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px 65px 65px 0px;
+    background: rgba(20, 0, 198, 0.75);
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+.nav_text {
+    font-family: "PlayfairDisplay";
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    left: 35px;
+    color: #A8E4A0;
+
+}
+
+.nav_text_foot {
+    font-family: "PlayfairDisplay";
+    font-size: 20px;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    color: #A8E4A0;
+}
+
+.navigation ul {
+    text-align: left;
+    list-style: none;
+    padding-top: 15%;
+}
+
+.navigation li {
+    margin: 30px -30px;
+    font-family: "PlayfairDisplay";
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.navigation li div{
+    width: 310px;
+}
+
+.navigation li div:hover{
+    border-radius: 0px 50px 50px 0px;
+background: rgba(89, 206, 143, 0.50);
+}
+
+.navigation li a {
+    color: #FF0028 !important;
+    margin-left: 10px;/*ЦВЕТ ТЕКСТА МЕНЮ*/
+}
+
+
+
+.foot{
+    position: absolute;
+    font-family: 'PlayfairDisplay';
+    font-size: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    bottom: 10px;
+    left: 300px;
+}
+
+.home_text {
+    position: absolute;
+    left: 335px;
+    top: 140px;
+}
+
+.home_text p {
+    font-size: 15px;
+    font-family: 'PlayfairDisplay';
+    color: #000000;
+    text-wrap: normal;
+}
+
+.home_text h3 {
+    text-align: center;
+    font-family: 'PlayfairDisplay';
+    color: #000000;
+}
+
+.home_text li {
+    font-family: 'PlayfairDisplay';
+    color: #000000;
+}
+
+.home_text h1 {
+    font-family: 'PlayfairDisplay';
+    width: 600px;
+    color: #000000;
+    position: absolute;
+    left: 400px;
+    top: -15px
+}
+
+.home_img {
+    position:absolute;
+    width: 350px;
+    height: 250px;
+    right: 39%;
+    top: 650px;
+}
+
+ .empty {
+     height: 60px;
+ }
+
+.demand_graph_1 {
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    left: 20px;
+    top: 0px;
+}
+
+.demand_graph_2 {
+    width: 400px;
+    height: 300px;
+    left: 20px;
+    position: absolute;
+    top: 300px
+}
+
+.tables {
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: flex-start;
+    position: absolute;
+    left: 500px;
+    top: 50px
+}
+
+.tables table {
+    color: #000000;
+}
+
+.geography_graph {
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    left: 20px;
+    top: 50px;
+}
+
+
+.graph_title1 {
+    font-family: "PlayfairDisplay";
+    position: absolute;
+    z-index: 999999;
+    color: #000000;
+    top: -45px;
+    left: 120px;
+    width: 300px;
+}
+
+.graph_title2 {
+    font-family: "PlayfairDisplay";
+    position: absolute;
+    z-index: 999999;
+    color: black;
+    left: 120px;
+    top: 290px;
+    width: 300px;
+}
+
+.tables_skills {
+    display: flex;
+
+    flex-direction: row;
+
+    position: absolute;
+    left: 10px;
+    top: 50px;
+
+}
+
+.tables_skills table {
+    color: #000000;
+}
+
+.skills_graph {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    left: 400px;
+    top: 380px
+}
+
+.empty_skills {
+    height: 750px;
+}
+
+.last_text {
+    font-family: 'PlayfairDisplay';
+    width: 600px;
+    color: #000000;
+    position: absolute;
+    left: 100px;
+    top: -15px
+}
+
+.LVtable {
+    left: 300px;
+    top: 200px;
+    position: absolute;
+    color: #000000;
+}
+
+.LVtable p {
+    color: #000000;
+}
+
+.navigate_page {
+    color: #FFFFFF;
+}
+
+.line{
+    width: 70%;
+    position: absolute;
+    height: 2px;
+    background-color: #1400C6;
+    margin-left: 15%;
+}
